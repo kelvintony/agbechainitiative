@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	/* background-color: #f5f9ff; */
+	background-color: #fff;
+	/* margin-bottom: 300px; */
+	overflow-x: hidden;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+/* utilities */
+.btn_container {
+	display: flex;
+	gap: 10px;
+}
+.btn_project {
+	border: 0.5px solid #f15b43;
+	outline: none;
+	gap: 5px;
+	background-color: inherit;
+	color: #f15b43;
+	border-radius: 50px;
+	padding: 10px 17px;
+	cursor: pointer;
+	font-size: 18px;
+	/* font-family: 'Roboto', sans-serif; */
+	font-weight: 400;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+}
+
+.btn_project:hover {
+	background-color: #f15b43;
+	color: white;
+}
+
+.btn_donate {
+	border: none;
+	outline: none;
+	gap: 5px;
+	background-color: #f15b43;
+	border-radius: 50px;
+	border: 0.5px solid #f15b43;
+	padding: 10px 17px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	/* font-family: 'Roboto', sans-serif; */
+	font-weight: 400;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+}
+
+.btn_donate:hover {
+	background-color: inherit;
+	color: #f15b43;
+}
+
+.btn_view_all {
+	width: 190px;
+	text-align: center;
+}
+.custom_border {
+	border-radius: 5px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+.custom_border:hover {
+	background-color: #faa194;
+	color: #ffffff;
+}
+
+.custom_border > img {
+	width: 20px;
+	height: 20px;
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+	/* utilities */
+	.btn_project {
+		padding: 7px 15px;
+		font-size: 12px;
+	}
+
+	.btn_donate {
+		padding: 7px 15px;
+		font-size: 12px;
+	}
+
+	.btn_view_all {
+		width: 129px;
+	}
+}

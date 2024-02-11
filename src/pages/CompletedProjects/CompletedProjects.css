@@ -1,0 +1,248 @@
+/* accomplishments section */
+.accomplishment_wrapper2 {
+	/* background-color: antiquewhite; */
+	background-color: #f6f6f6;
+}
+
+.accomplishments_list {
+	margin-bottom: 100px;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+.accomplishments_list h3 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 34px;
+	letter-spacing: 0.05em;
+}
+.acc_h_inner {
+	color: rgb(39, 39, 39);
+	letter-spacing: 0.05em;
+	font-size: 18px;
+	text-align: center;
+}
+.accomplishments {
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 90px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	/* align-items: flex-start; */
+	padding: 10px;
+	gap: 20px;
+}
+
+.accom_inner_a {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.accom_inner_a h3 {
+	color: #65c9bb;
+	letter-spacing: 0.05em;
+	font-size: 16px;
+}
+.accom_inner_a p:nth-of-type(1) {
+	color: rgb(43, 43, 43);
+	letter-spacing: 0.05em;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.accom_inner_a p:nth-of-type(2) {
+	color: rgb(39, 39, 39);
+	letter-spacing: 0.05em;
+	font-size: 18px;
+}
+
+.carousel_writeup {
+	background: black;
+	padding: 2px;
+	opacity: 0.7;
+}
+
+.carousel-item > img {
+	width: 400px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.project_gallery {
+	margin-top: 100px;
+	background-color: black;
+	/* background-color: #121923; */
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.project_gallery_wrappper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.project_gallery_wrappper > h1,
+.project_gallery_wrappper > p {
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	margin-top: 20px;
+}
+.project_gallery_wrappper > h1 {
+	color: #dddddd;
+}
+
+.project_gallery_wrappper > p {
+	margin-bottom: 40px;
+	color: #9ea2ad;
+}
+
+/* utilities */
+.btn_container {
+	display: flex;
+	gap: 10px;
+}
+.btn_project {
+	border: 0.5px solid #f15b43;
+	outline: none;
+	gap: 5px;
+	background-color: inherit;
+	color: #f15b43;
+	border-radius: 50px;
+	padding: 10px 17px;
+	cursor: pointer;
+	font-size: 18px;
+	/* font-family: 'Roboto', sans-serif; */
+	font-weight: 400;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn_project:hover {
+	background-color: #f15b43;
+	color: white;
+}
+
+.btn_donate {
+	border: none;
+	outline: none;
+	gap: 5px;
+	background-color: #f15b43;
+	border-radius: 50px;
+	border: 0.5px solid #f15b43;
+	padding: 10px 17px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	/* font-family: 'Roboto', sans-serif; */
+	font-weight: 400;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn_donate:hover {
+	background-color: inherit;
+	color: #f15b43;
+}
+
+.btn_view_all {
+	width: 190px;
+	text-align: center;
+}
+.custom_border {
+	border-radius: 5px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+.custom_border:hover {
+	background-color: #faa194;
+	color: #ffffff;
+}
+
+.custom_border > img {
+	width: 20px;
+	height: 20px;
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+	/* .accom_courousal {
+		margin: 0 auto;
+	} */
+
+	.accomplishments_list h3 {
+		font-size: 24px;
+		letter-spacing: 0.05em;
+		/* margin-left: 100px; */
+		/* margin-right: 100px; */
+		margin-bottom: 20px;
+		/* text-align: start; */
+	}
+	.acc_h_inner {
+		font-size: 14px;
+	}
+	.accomplishments {
+		grid-template-columns: 1fr;
+		padding: 20px;
+		gap: 15px;
+		margin-top: 50px;
+	}
+
+	.accom_inner_a {
+		margin-bottom: 20px;
+	}
+
+	.accom_inner_a h3 {
+		font-size: 12px;
+	}
+	.accom_inner_a p:nth-of-type(1) {
+		font-size: 27px;
+	}
+	.accom_inner_a p:nth-of-type(2) {
+		font-size: 14px;
+	}
+
+	.carousel_writeup > p {
+		font-size: 14px !important;
+	}
+	.carousel-item > img {
+		height: 350px;
+	}
+	.carousel-item > .custom_cover {
+		height: 350px;
+		object-fit: contain;
+	}
+
+	/* project gallery */
+
+	.project_gallery_wrappper > p {
+		margin-bottom: 0px;
+	}
+
+	.project_gallery_wrappper > h1 {
+		font-size: 24px;
+	}
+
+	.project_gallery_wrappper > p {
+		font-size: 14px;
+	}
+
+	/* utilities */
+	.btn_project {
+		padding: 7px 15px;
+		font-size: 12px;
+	}
+
+	.btn_donate {
+		padding: 7px 15px;
+		font-size: 12px;
+	}
+
+	.btn_view_all {
+		width: 129px;
+	}
+}

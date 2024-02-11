@@ -1,0 +1,18 @@
+.commingsoon_container {
+	height: 300px;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+.commingsoon_container h3 {
+	color: rgb(46, 46, 46);
+}
+.commingsoon_container img {
+	width: 300px;
+	height: auto;
+}

@@ -1,0 +1,18 @@
+.payment_suc_container {
+	margin-top: 150px;
+	width: 100vw;
+	/* height: 100vh; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pay_cont {
+	background-color: #bd7d07;
+	padding: 5px;
+}
+.payment_suc_container h1 {
+	/* font-size: 24px; */
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
